@@ -1,10 +1,7 @@
 module.exports = {
-  "stories": [
-    "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
-  ],
-  "addons": [
-    "@storybook/addon-controls",
+  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  addons: [
+    '@storybook/addon-controls',
     {
       name: '@storybook/addon-essentials',
       options: {
@@ -14,9 +11,9 @@ module.exports = {
         docs: true,
         viewport: true,
         toolbars: true,
-      }
+      },
     },
     '@storybook/addon-a11y',
-    "@storybook/addon-links"
-  ]
+    '@storybook/addon-links',
+  ],
 }
