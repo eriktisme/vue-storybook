@@ -6,9 +6,14 @@ export default {
     component: Btn
 } as Meta
 
-export const Default = () => ({
+export const Base = () => ({
     components: { Btn },
     template: '<Btn>Button</Btn>'
+})
+
+export const Neutral = () => ({
+    components: { Btn },
+    template: '<Btn style="bg-white border-black text-black">Button</Btn>'
 })
 
 export const Block = () => ({

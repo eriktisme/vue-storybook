@@ -8,7 +8,7 @@ export default defineComponent({
     },
     style: {
       type: String,
-      default: "bg-blue-500 hover:bg-blue-400 text-white"
+      default: "bg-blue-700 hover:bg-blue-400 text-white border-transparent"
     },
     disabled: {
       type: Boolean,
@@ -35,7 +35,6 @@ export default defineComponent({
           'py-2',
           'align-middle',
           'border',
-          'border-transparent',
           'cursor-pointer',
           'text-center',
           'text-base',
