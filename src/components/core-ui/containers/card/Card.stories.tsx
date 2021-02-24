@@ -1,5 +1,5 @@
-import Card from './Card'
-import CardSection from './CardSection'
+import { Card, CardSection } from '../index'
+
 import { Meta } from '@storybook/vue3'
 
 export default {

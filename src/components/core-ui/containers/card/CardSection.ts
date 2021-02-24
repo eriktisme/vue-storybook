@@ -1,6 +1,6 @@
 import { defineComponent, h } from 'vue'
 
-export default defineComponent({
+export const CardSection = defineComponent({
   props: {
     spacing: {
       type: String,

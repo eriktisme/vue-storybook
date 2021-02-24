@@ -1,6 +1,6 @@
 import { defineComponent, h } from 'vue'
 
-export default defineComponent({
+export const Card = defineComponent({
   setup(_, { slots }) {
     return () =>
       h(
