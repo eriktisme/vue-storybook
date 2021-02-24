@@ -2,7 +2,7 @@ import { Button as Btn } from './index'
 import { Meta } from '@storybook/vue3'
 
 export default {
-  title: 'Components/CoreUI/Button',
+  title: 'Components/Buttons',
   component: Btn,
 } as Meta
 
